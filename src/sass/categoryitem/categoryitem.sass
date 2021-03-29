@@ -1,0 +1,43 @@
+@import base/colors
+
+.recipies-item
+	width: 170px
+	margin-right: 26px
+	margin-bottom: 10px
+	display: inline-block
+
+.full-row
+	margin-top: 28px
+	margin-right: 23px
+	&:nth-child(5n)
+	  margin-right: 0px
+
+.thumbnail
+	width: 100%
+
+.recipies-item-description
+	float: left
+
+.recipies-item-title
+	font-size: 13px
+	line-height: 17px
+	margin: 8px 0px 0px
+
+.recipies-item-title-link
+	color: $primary-text
+	&:hover
+		text-decoration: underline
+
+.recipies-item-ingredients
+  font-size: 12px
+  line-height: 17px
+  margin: 4px 0px 0px
+
+.recipies-item-ingredients-link
+  color: $secondary-text
+  &:hover
+    text-decoration: underline
+
+.recipies-item-more-ingredients-link
+  color: $accent-secondary
+  cursor: pointer

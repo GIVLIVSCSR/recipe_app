@@ -1,0 +1,64 @@
+@import base/colors
+
+.recipies-product-full
+  padding-top: 60px
+
+.recipies-container
+  @extend .main-container
+  position: relative
+  padding-top: 32px
+  padding-bottom: 80px
+  &:after
+    @extend .clearfix
+
+.large-item
+
+.large-thumbnail
+  width: 30%
+  display: block
+
+.recipies-item-description, .large-thumbnail
+  float: left
+
+.full-discription
+  width: 65%
+  padding-left: 5%
+
+.large-title
+  font-size: 24px
+  line-height: 30px
+  margin: 0
+  color: $primary-text
+
+.small-title
+  font-size: 13px
+  line-height: 17px
+  margin-top: 34px
+  margin-bottom: 3px
+  color: $primary-text
+
+.product-full-ingredients
+  font-size: 13px
+  line-height: 17px
+  color: $secondary-text
+
+.medium-title
+  font-size: 20px
+  line-height: 26px
+  margin-top: 19px
+  margin-bottom: 0px
+  color: $primary-text
+
+.recipe-discription
+  font-size: 16px
+  line-height: 21px
+  color: $secondary-text
+
+.recipe-discription-more
+  font-size: 16px
+  line-height: 17px
+  cursor: pointer
+  color: $link-hover
+  float: right
+  &:hover
+    text-decoration: underline

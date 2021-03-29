@@ -1,0 +1,53 @@
+@import base/colors
+
+.global-nav
+  height: 82px
+  padding-top: 15px
+  border-top: 1px solid $shape-separator
+  background: #fff
+
+.nothome
+  padding-top: 56px
+
+.nav-container
+  @extend .main-container
+
+.nav-list
+  text-align: center
+
+.nav-list-item
+  display: inline-block
+  margin: 0px 32px
+
+.nav-list-item-link
+  display: block
+  color: $primary-text
+  &:hover
+    color: $link-hover
+    text-decoration: underline
+
+.nav-list-item-link-icon
+  width: 56px
+  height: 48px
+  background: center bottom no-repeat
+  display: block
+  margin: 0 auto
+
+.snack-icon
+  background-image: url("/src/img/snacks.svg")
+
+.salat-icon
+  background-image: url("/src/img/salats.svg")
+
+.meal-icon
+  background-image: url("/src/img/meals.svg")
+
+.dessert-icon
+  background-image: url("/src/img/desserts.svg")
+
+.popular-icon
+  background-image: url("/src/img/popular.svg")
+
+.nav-list-item-category-name
+  font-size: 12px
+  font-weight: 600

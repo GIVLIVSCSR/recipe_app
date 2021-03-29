@@ -1,0 +1,33 @@
+@import base/colors
+@import base/_main-container
+
+.global-header
+  background: #fff
+  height: 46px
+  width: 100%
+  position: fixed
+  top: 0
+  z-index: 1000
+  border-bottom: 1px solid $shape-separator
+  overflow-x: auto
+
+.global-header-container
+  @extend .main-container
+  &:after
+    @extend .clearfix
+
+.global-header-logo
+  width: 56px
+  height: 46px
+  background: url("/src/img/logo.svg") 0 no-repeat
+  background-position: right center
+  float: left
+
+.global-header-registration
+  float: right
+  font-size: 14px
+  font-weight: 600
+  line-height: 44px
+  color: $accent-primary
+  &:hover
+    text-decoration: underline

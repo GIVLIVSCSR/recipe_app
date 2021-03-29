@@ -1,0 +1,48 @@
+@import base/colors
+
+.recipies
+
+.recipies-container
+  width: 92%
+  max-width: 960px
+  margin-left: auto
+  margin-right: auto
+  position: relative
+  padding-top: 32px
+  padding-bottom: 80px
+  &:after
+    @extend .clearfix
+
+.recipies-nav
+
+.recipies-nav::after
+  @extend .clearfix
+
+.recipies-nav-category-title
+  font-size: 20px
+  font-weight: 600
+  line-height: 24px
+  color: $primary-text
+  float: left
+
+.recipies-nav-all-link
+  position: relative
+  top: 21px
+  color: $link-hover
+  float: left
+  margin-left: 14px
+  &:hover
+    text-decoration: underline
+
+.recipies-nav-all-link-button
+  font-size: 16px
+  line-height: 20px
+  color: $link-hover
+
+.recipies-nav-all-arrow
+  margin: 0
+  width: 10px
+  height: 12px
+  background: url("/src/img/see_all_arrow.svg")
+  margin-top: 3px
+  display: inline-block
